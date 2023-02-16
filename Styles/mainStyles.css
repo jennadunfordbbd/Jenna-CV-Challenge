@@ -8,6 +8,10 @@ nav ul li {
   white-space: nowrap;
   padding: 0.5rem;
 }
+
+ol.experienceList {
+  list-style: none;
+}
 nav ul li:hover {
   cursor: pointer;
   background-color: rgba(184, 222, 255, 0.363);
@@ -209,5 +213,9 @@ div.blockHolder {
     padding: 0.5rem;
     border-radius: 5%;
     margin: 0.4rem;
+  }
+
+  .experienceSection {
+    width: 20rem;
   }
 }
