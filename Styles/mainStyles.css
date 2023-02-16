@@ -166,6 +166,25 @@ div.blockHolder {
   height: 70rem;
 }
 
+.projectsDivider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.projectSection {
+  width: 20rem;
+  height: 20rem;
+  display: block;
+  background-color: pink;
+  padding: 0.5rem;
+  border-radius: 5%;
+  margin: 0.4rem;
+}
+
 @media only screen and (max-width: 700px) {
   .aboutArticle {
     text-align: start;
@@ -175,5 +194,20 @@ div.blockHolder {
 
   img.aboutImage {
     height: 25rem;
+  }
+
+  .projectsDivider {
+    width: 20rem;
+    justify-content: center;
+  }
+
+  .projectSection {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: pink;
+    padding: 0.5rem;
+    border-radius: 5%;
+    margin: 0.4rem;
   }
 }
