@@ -76,6 +76,7 @@ img.aboutImage {
 .aboutArticle {
   width: 40rem;
   text-align: center;
+  font-size: 0.9em;
 }
 
 .aboutDivider {
@@ -101,7 +102,7 @@ img.generalImage:hover {
   transform: scale(1.1);
 }
 
-div.profilePicHolder {
+.profilePicHolder {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -187,6 +188,30 @@ div.blockHolder {
   padding: 0.5rem;
   border-radius: 5%;
   margin: 0.4rem;
+}
+
+.imagesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imagesList > li {
+  height: 20rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.imagesList {
+  list-style-type: none;
+}
+
+.imagesList li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 700px) {
