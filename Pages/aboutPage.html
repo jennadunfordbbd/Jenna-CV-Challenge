@@ -1,52 +1,94 @@
-<div class="aboutDivider">
-  <section>
-    <article class="aboutArticle">
-      <h3>A Little Bit About Me</h3>
-      <p>
-        I was born in raised in beautiful, sunny, humid KZN, Durban. From a
-        young age I loved being creative in everything I did, I had a keen
-        interest in artwork, writing, music and video games.
-      </p>
-      <p>
-        Attending Westville Girls High School, I discovered my love for
-        programming and software development, and it became something that I was
-        eager to pursue.
-      </p>
-      <p>
-        I believe that my love for creativity, literature and art is firmly
-        intertwined with my interest in programming. I can express myself
-        artistically through both - especially in situations of problem solving
-        when creative thinking is key.
-      </p>
-      <p>
-        One of my more recent interests in animation - where every frame needs
-        to be perfectly constructed in order to show a complete movement or
-        scene. There is so much complexity and thought given to things like
-        physics and the mathematics of perspective and angles when considering
-        an animation.
-      </p>
-      <p>
-        I think back to the era of the Renaissance, where the most celebrated
-        engineers and mathematicians were also brilliant painters and
-        sculptures. As a society today we prefer to separate STEM fields from
-        more artistic ones. I think that this is a sad mistake, and that both
-        are more alike than people realize. Their similarities should be
-        embraced in everything we do.
-      </p>
-      <p>
-        I am looking forward to a career in software development, where I can
-        also practice and continue to learn about the creative subjects I love,
-        in the hopes that it will make me a better programmer and engineer.
-      </p>
-    </article>
-  </section>
-  <section class="aboutShow">
-    <aside>
-      <img
-        class="aboutImage"
-        alt="Myself standing by a lighthouse on a beach in Durban."
-        src="../Images/beach.jpg"
-      />
-    </aside>
-  </section>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JennaDunford</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/mainStyles.css" />
+  </head>
+  <body>
+    <header class="headerContainer">
+      <section class="titlesBox">
+        <h1 class="mainTitle">Jenna Dunford</h1>
+        <h2 class="subTitle">Software Developer/Digital Artist</h2>
+      </section>
+      <section>
+        <nav>
+          <ul>
+            <li onclick="displayEachPage(0)">Home</li>
+            <li onclick="displayEachPage(1)">About Me</li>
+            <li onclick="displayEachPage(2)">Experience</li>
+            <li onclick="displayEachPage(3)">Software Projects</li>
+            <li onclick="displayEachPage(4)">Artwork</li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <section class="aboutDivider" id="aboutPage">
+      <section>
+        <article class="aboutArticle">
+          <h3>A Little Bit About Me</h3>
+          <p>
+            I was born in raised in beautiful, sunny, humid KZN, Durban. From a
+            young age I loved being creative in everything I did, I had a keen
+            interest in artwork, writing, music and video games.
+          </p>
+          <p>
+            Attending Westville Girls High School, I discovered my love for
+            programming and software development, and it became something that I
+            was eager to pursue.
+          </p>
+          <p>
+            I believe that my love for creativity, literature and art is firmly
+            intertwined with my interest in programming. I can express myself
+            artistically through both - especially in situations of problem
+            solving when creative thinking is key.
+          </p>
+          <p>
+            One of my more recent interests in animation - where every frame
+            needs to be perfectly constructed in order to show a complete
+            movement or scene. There is so much complexity and thought given to
+            things like physics and the mathematics of perspective and angles
+            when considering an animation.
+          </p>
+          <p>
+            I think back to the era of the Renaissance, where the most
+            celebrated engineers and mathematicians were also brilliant painters
+            and sculptures. As a society today we prefer to separate STEM fields
+            from more artistic ones. I think that this is a sad mistake, and
+            that both are more alike than people realize. Their similarities
+            should be embraced in everything we do.
+          </p>
+          <p>
+            I am looking forward to a career in software development, where I
+            can also practice and continue to learn about the creative subjects
+            I love, in the hopes that it will make me a better programmer and
+            engineer.
+          </p>
+        </article>
+      </section>
+      <section class="aboutShow">
+        <aside>
+          <img
+            class="aboutImage"
+            alt="Myself standing by a lighthouse on a beach in Durban."
+            src="../Images/beach.jpg"
+          />
+        </aside>
+      </section>
+    </section>
+    <footer>
+      <div class="blockHolder">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block4"></div>
+        <div class="block5"></div>
+        <div class="block6"></div>
+        <div class="block7"></div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/JavaScript" src="../JavaScript/main.js"></script>
+</html>

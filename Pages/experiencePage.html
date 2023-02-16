@@ -1,29 +1,74 @@
-<section>
-  <article>
-    <h3>My Experience</h3>
-    <ol>
-      <li>High School Years</li>
-      <ul>
-        <li>
-          I worked as a library monitor and was on the Learner Management Team
-          in my matric year where myself and other nominated students helped to
-          organize events and fundraising projects within the school.
-        </li>
-        <li>
-          During my grade 11 year I worked as a table runner in a restaurant
-          that was called Chez Nous, which has unfortunately since been closed.
-        </li>
-        <li>For a week I helped to manage a second hand bookstore.</li>
-      </ul>
-      <li>University Years</li>
-      <ul>
-        <li>
-          I've done tutoring for Information Technology for the company
-          TeachMe2. My responsibilities included preparing lessons and aiding my
-          students in their difficulties.
-        </li>
-        <li>I worked on the POC of the MVP for the All4SA project at BBD</li>
-      </ul>
-    </ol>
-  </article>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JennaDunford</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/mainStyles.css" />
+  </head>
+  <body>
+    <header class="headerContainer">
+      <section class="titlesBox">
+        <h1 class="mainTitle">Jenna Dunford</h1>
+        <h2 class="subTitle">Software Developer/Digital Artist</h2>
+      </section>
+      <section>
+        <nav>
+          <ul>
+            <li onclick="displayEachPage(0)">Home</li>
+            <li onclick="displayEachPage(1)">About Me</li>
+            <li onclick="displayEachPage(2)">Experience</li>
+            <li onclick="displayEachPage(3)">Software Projects</li>
+            <li onclick="displayEachPage(4)">Artwork</li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <section class="experienceSection" id="pageContent">
+      <article>
+        <h3>My Experience</h3>
+        <ol class="experienceList">
+          <li>High School Years</li>
+          <ul class="experienceList">
+            <li class="experienceList">
+              I worked as a library monitor and was on the Learner Management
+              Team in my matric year where myself and other nominated students
+              helped to organize events and fundraising projects within the
+              school.
+            </li>
+            <li class="experienceList">
+              During my grade 11 year I worked as a table runner in a restaurant
+              that was called Chez Nous, which has unfortunately since been
+              closed.
+            </li>
+            <li>For a week I helped to manage a second hand bookstore.</li>
+          </ul>
+          <li>University Years</li>
+          <ul class="experienceList">
+            <li>
+              I've done tutoring for Information Technology for the company
+              TeachMe2. My responsibilities included preparing lessons and
+              aiding my students in their difficulties.
+            </li>
+            <li>
+              I worked on the POC of the MVP for the All4SA project at BBD
+            </li>
+          </ul>
+        </ol>
+      </article>
+    </section>
+    <footer>
+      <div class="blockHolder">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block4"></div>
+        <div class="block5"></div>
+        <div class="block6"></div>
+        <div class="block7"></div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/JavaScript" src="../JavaScript/main.js"></script>
+</html>

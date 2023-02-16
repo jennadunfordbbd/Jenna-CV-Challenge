@@ -4,19 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JennaDunford</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/mainStyles.css" />
   </head>
   <body>
-    <h3>Software Projects</h3>
-    <section class="projectsDivider">
-      <section class="projectSection">
-        <h4>Title of Project</h4>
-        <article>
-          <p>Description: short description of project</p>
-          <p>Languages used: C++,JavaScript,etc</p>
-          <p>can be found here</p>
-        </article>
+    <header class="headerContainer">
+      <section class="titlesBox">
+        <h1 class="mainTitle">Jenna Dunford</h1>
+        <h2 class="subTitle">Software Developer/Digital Artist</h2>
+      </section>
+      <section>
+        <nav>
+          <ul>
+            <li onclick="displayEachPage(0)">Home</li>
+            <li onclick="displayEachPage(1)">About Me</li>
+            <li onclick="displayEachPage(2)">Experience</li>
+            <li onclick="displayEachPage(3)">Software Projects</li>
+            <li onclick="displayEachPage(4)">Artwork</li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <section id="pageContent">
+      <h3 class="center">Software Projects</h3>
+      <section class="projectsDivider">
+        <section class="projectSection">
+          <h4>Little Witch Character Creator</h4>
+          <article>
+            <p>A very small experiment in character customization in Unity.</p>
+            <p>Created using C# and Unity.</p>
+            <a
+              target="_blank"
+              href="https://pancakes2000.itch.io/little-witch-character-creator"
+              >Check out this project</a
+            >
+          </article>
+        </section>
+        <section class="projectSection">
+          <h4>Game Jam Game: Aurora</h4>
+          <article>
+            <p>
+              A game made by myself and my partner during The Campus Game Jame
+              2022.
+            </p>
+            <p>Created using C# and Unity.</p>
+            <p>
+              <a
+                target="_blank"
+                href="https://spicyramenproductions.itch.io/aurora-by-spicy-ramen"
+                >Check out this project</a
+              >
+            </p>
+          </article>
+        </section>
+        <section class="projectSection">
+          <h4>Dynamic Game of Snakes and Ladders</h4>
+          <article>
+            <p>A game of snakes and ladders that can play itself.</p>
+            <p>Languages used: C++</p>
+            <p>
+              <a
+                target="_blank"
+                href="https://github.com/jennadunford/ELEN2020-SnakesAndLadders"
+                >Check out this project</a
+              >
+            </p>
+          </article>
+        </section>
+        <section class="projectSection">
+          <h4>Vehicle Energy Usage Comparisons</h4>
+          <article>
+            <p>
+              An app that compares energy consuption of fuel vs electricity.
+            </p>
+            <p>Created with JavaScript, HTML, CSS, C++, WebAssembly</p>
+            <p>
+              <a
+                target="_blank"
+                href="https://pancakes2000.itch.io/little-witch-character-creator"
+                >Check out this project</a
+              >
+            </p>
+          </article>
+        </section>
       </section>
     </section>
+    <footer>
+      <div class="blockHolder">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block4"></div>
+        <div class="block5"></div>
+        <div class="block6"></div>
+        <div class="block7"></div>
+      </div>
+    </footer>
   </body>
+  <script type="text/JavaScript" src="../JavaScript/main.js"></script>
 </html>
