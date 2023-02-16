@@ -6,13 +6,20 @@ nav ul li {
   margin: 0.5rem;
   list-style-type: none;
   white-space: nowrap;
+  padding: 0.5rem;
+}
+nav ul li:hover {
+  cursor: pointer;
+  background-color: rgba(184, 222, 255, 0.363);
+  border-radius: 15px;
 }
 
 .headerContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin: 3rem;
+  width: 100%;
 }
 
 body {
@@ -34,6 +41,7 @@ section.titlesBox {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  margin: 1rem;
 }
 
 #pageContent {
@@ -60,51 +68,52 @@ div.blockHolder {
   align-items: flex-end;
   bottom: 0;
   width: 100%;
-  margin-top: 1rem;
+  position: fixed;
+  z-index: -1;
 }
 
 .block1 {
   display: block;
-  background-color: rgb(241, 175, 225);
-  width: 10rem;
-  height: 20rem;
+  background-color: rgba(241, 175, 224, 0.356);
+  width: 20rem;
+  height: 50rem;
 }
 .block2 {
   display: block;
-  background-color: rgb(146, 146, 209);
-  width: 15rem;
-  height: 10rem;
+  background-color: rgb(146, 146, 209, 0.356);
+  width: 25rem;
+  height: 60rem;
 }
 .block3 {
   display: block;
-  background-color: rgb(160, 204, 160);
+  background-color: rgb(160, 204, 160, 0.356);
   width: 20rem;
-  height: 15rem;
+  height: 50rem;
 }
 .block4 {
   display: block;
-  background-color: rgb(255, 255, 163);
+  background-color: rgb(255, 255, 163, 0.356);
   width: 20rem;
-  height: 20rem;
+  height: 80rem;
 }
 
 .block5 {
   display: block;
-  background-color: pink;
+  background-color: rgb(255, 174, 187, 0.356);
   width: 20rem;
-  height: 25rem;
+  height: 50rem;
 }
 
 .block6 {
   display: block;
-  background-color: rgb(152, 206, 200);
+  background-color: rgb(152, 206, 200, 0.356);
   width: 20rem;
-  height: 10rem;
+  height: 52rem;
 }
 
 .block7 {
   display: block;
-  background-color: rgb(191, 169, 243);
-  width: 20rem;
-  height: 15rem;
+  background-color: rgb(191, 169, 243, 0.356);
+  width: 10rem;
+  height: 70rem;
 }
