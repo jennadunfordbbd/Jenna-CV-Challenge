@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+nav ul li {
+  display: inline;
+  font-size: 1.5em;
+  margin: 0.5rem;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+body {
+  font-family: Dosis;
+  margin: 0;
+}
+
+h1.mainTitle {
+  font-size: 3em;
+  margin: 0;
+}
+
+h2.subTitle {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+section.titlesBox {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+#pageContent {
+  margin: 5rem;
+  font-size: 1.5em;
+}
+
+img.profileImage {
+  width: 10rem;
+  height: auto;
+  border-radius: 10%;
+}
+
+div.profilePicHolder {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+div.blockHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.block1 {
+  display: block;
+  background-color: rgb(241, 175, 225);
+  width: 10rem;
+  height: 20rem;
+}
+.block2 {
+  display: block;
+  background-color: rgb(146, 146, 209);
+  width: 15rem;
+  height: 10rem;
+}
+.block3 {
+  display: block;
+  background-color: rgb(160, 204, 160);
+  width: 20rem;
+  height: 15rem;
+}
+.block4 {
+  display: block;
+  background-color: rgb(255, 255, 163);
+  width: 20rem;
+  height: 20rem;
+}
+
+.block5 {
+  display: block;
+  background-color: pink;
+  width: 20rem;
+  height: 25rem;
+}
+
+.block6 {
+  display: block;
+  background-color: rgb(152, 206, 200);
+  width: 20rem;
+  height: 10rem;
+}
+
+.block7 {
+  display: block;
+  background-color: rgb(191, 169, 243);
+  width: 20rem;
+  height: 15rem;
+}

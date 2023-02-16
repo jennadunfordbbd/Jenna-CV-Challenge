@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JennaDunford</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-</head>
-<body>
-    <h1>Jenna Dunford</h1>
-    
-</body>
+    <link rel="stylesheet" type="text/css" href="/Styles/mainStyles.css" />
+  </head>
+  <body>
+    <header class="headerContainer">
+      <section class="titlesBox">
+        <h1 class="mainTitle">Jenna Dunford</h1>
+        <h2 class="subTitle">Software Developer/Digital Artist</h2>
+      </section>
+      <section>
+        <nav>
+          <ul>
+            <li onclick="displayEachPage(0)">Home</li>
+            <li onclick="displayEachPage(1)">About Me</li>
+            <li onclick="displayEachPage(2)">Experience</li>
+            <li onclick="displayEachPage(3)">Software Projects</li>
+            <li onclick="displayEachPage(4)">Artwork</li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <section id="pageContent"></section>
+    <footer>
+      <div class="blockHolder">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block4"></div>
+        <div class="block5"></div>
+        <div class="block6"></div>
+        <div class="block7"></div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/JavaScript" src="JavaScript/main.js"></script>
 </html>
